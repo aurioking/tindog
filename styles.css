@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&family=Ubuntu:wght@500&display=swap');
+
+:root {
+    --primary-red:rgba(253, 41, 123, 1);
+    --second-red: rgba(239, 129, 114, 1);
+    --linear: linear-gradient(90deg, rgba(253, 41, 123, 1) 0%, rgba(255, 88, 100, 1) 50%, rgba(255, 101, 91, 1) 100%);
+    --white: #ffffff;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+}
+
+/* ==================================== Title ==================================== */
+
+#title {
+    background: var(--primary-red);
+    background: var(--linear);
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+.row .col-lg-6 h1 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.row .col-lg-6 button {
+    font-weight: 500;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+/* ==================================== Navigation Bar ==================================== */
+
+.navbar {
+    padding-bottom: 0 0 4.5rem;
+}
+
+.fire {
+    font-size: var(--white);
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    color: rgba(238, 237, 237, 0.6);
+    font-size: 1.2rem;
+}
+
+/* Download Button */
+
+.download-btn {
+    margin: 8% 3% 3% 0;
+}
+
+/* Tittle Image */
+
+.tittle-image {
+    width: 290px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+/* ==================================== Features ==================================== */
+
+#features {
+    
+    background-color: var(--white);
+}
+
+.container-2 {
+    padding: 110px;
+}
+
+.icons {
+    font-size: 80px;
+    color: var(--second-red);
+    padding-bottom: 20px;
+}
+
+.icons:hover {
+    color: var(--primary-red);
+}
+
+.row2 {
+    padding-bottom: 20px;
+    font-size: 100%;
+}
+
+/* ==================================== Testimonial ==================================== */
+
+#testimonials {
+    padding: 7% 15%;
+    background-color: var(--second-red);
+    color: var(--white);
+}
+
+.carousel-h2 {
+    font-size: x-large;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 25px;
+}
+
+/* ==================================== Press ==================================== */
+
+#press {
+    background-color: var(--second-red);
+    padding-bottom: 6%;
+}
+
+.brand-img {
+    width: 15%;
+    margin: 15px 20px 25px;
+}
+
+/* ==================================== Pricing ==================================== */
+
+#pricing {
+    padding-bottom: 8%;
+    padding-top: 3%;
+}
+
+.pricing-text h2{
+    font-size: 5vh;
+}
+
+.btn-sign {
+    background: var(--primary-red);
+    background: var(--linear);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* ==================================== cta ==================================== */
+
+#cta {
+    background: var(--primary-red);
+    background: var(--linear);
+    padding-top: 13%;
+    padding-bottom: 17%;
+}
+
+#cta h3 {
+    color: var(--white);
+    font-size: xx-large;
+}
+
+/* ==================================== Footer ==================================== */
+#footer {
+    padding: 7%;
+    background-color: var(--white);
+}
+
+#footer a {
+    color: var(--primary-red);
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+#footer a:hover {
+    color: rgba(255, 76, 104, 0.7);
+}
+
+#footer p {
+    padding-top: 30px;
+    font-family: "Ubuntu", sans-serif;
+}
